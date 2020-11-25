@@ -1,0 +1,37 @@
+.inicio{
+    border: 10px solid #000000;
+    background: #f0cbf2;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ul{
+    padding-inline-start: 0px;;
+}
+li{
+    list-style: none;
+}
+.texto{
+    width: 250px;
+}
+.agregar{
+    width: 100px;
+    
+}
+.item{
+    border: 2px solid #ffffff;
+    width: 350px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+.eliminar{
+    float: right;
+}
+.tachar:checked + span{
+    text-decoration:line-through;
+}
+input.tachar{
+    float: left;
+}
